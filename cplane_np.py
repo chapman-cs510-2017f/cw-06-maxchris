@@ -111,9 +111,3 @@ class ArrayComplexPlane(AbsComplexPlane):
         return self.plane
     
 
-P = ArrayComplexPlane(1,2,2,1,2,2)
-print(P.refresh())
-#def f(x):
-#    return x+2
-#print(P.zoom(2,3,2,2,3,2))
-
