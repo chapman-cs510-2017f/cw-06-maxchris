@@ -1,6 +1,6 @@
 # CS510 CW 6
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Maksym Solodovskyi & Chris Watkins**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-06-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-06-YOURNAME)
 
@@ -19,9 +19,7 @@
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
-
-**CHANGEME**
+The most useful part of this assignment was using Numpy. Numpy made the cplane class much easier, and also learning about what Numpy can do was helpful. We are glad that we are able to Numpy rather than just stock Python! 
 
 ## Honor Pledge
 
@@ -32,4 +30,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Maksym Solodovskyi & Chris Watkins**
