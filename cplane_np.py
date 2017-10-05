@@ -30,7 +30,10 @@ class ArrayComplexPlane(AbsComplexPlane):
         self.ymax  = ymax
         self.ylen  = ylen
         # The implementation type of plane is up to the user
-        self.plane = []
+        r = np.linspace(self.xmin, self.xmax,self.xlen)
+        q = np.linspace(self.ymin, self.ymax, self.ylen)
+        x,y = np.meshgrid(r,q,)
+        self.plane = x+y*1j
         # fs should be a list of functions, initialized to be empty
         self.fs = []
 
