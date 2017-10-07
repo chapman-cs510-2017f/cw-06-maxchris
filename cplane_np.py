@@ -46,7 +46,7 @@ class ArrayComplexPlane(AbsComplexPlane):
         Returns:
             Complex plane after generating points.
         """
-            
+        self.fs = []    
         r = np.linspace(self.xmin, self.xmax,self.xlen)
         q = np.linspace(self.ymin, self.ymax, self.ylen)
         x,y = np.meshgrid(r,q,)
